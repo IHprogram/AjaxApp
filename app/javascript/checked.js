@@ -7,6 +7,9 @@ function check() {
       return null;
     }
 
+
+
+
     post.setAttribute("data-load", "true");
     post.addEventListener("click", (e) => {
       const postId = post.getAttribute("data-id");
